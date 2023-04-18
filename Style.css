@@ -1,0 +1,146 @@
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    size: 10%;
+    margin-top: 1% ;
+    margin-left: 5px ;
+}
+.navbar img{
+    height: 100px;
+}
+nav li a{
+    text-decoration:dotted;
+
+}
+.container1{
+    display: flex;
+    text-align: center;
+}
+.box1{
+    gap: 30px;
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+    display: flex;
+    cursor: pointer;
+}
+.icon ion-icon{
+    margin-left: 60px;
+}
+span{
+    color: black;
+    font-size: larger;
+    padding: 5px;
+    font-weight: bold;
+}
+.box2{
+background-image: url(./images/bicep-curl-900x600.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 500px;    
+}
+.box2 h1{
+    text-align: center;
+    color:white;
+}
+.box2 h4{
+    text-align: center;
+    color: red;
+    font-size: 25px;
+
+
+}
+.box3{
+  text-align: center;
+  
+
+}
+.btn{
+    /* border-radius: 30px; */
+    padding: 15px;
+    margin: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    width: 15%;
+    border: none;
+}
+.arrow{
+    color: black;
+    margin-top: -4.3%;
+    margin-left: 8%;
+}
+.p{
+    text-align: center;
+    font-size: 30px;
+}
+.fit{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    gap:60px ;  
+   
+}
+.box4 img{
+   height: 350px;
+   width: 350px;
+}
+.box5 img{
+    height: 350px;
+    width: 350px;
+}
+.box6 img{
+    height: 350px;
+    width: 350px;
+}
+.box2{
+    background-image: url(./images/bicep-curl-900x600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;    
+    }
+    body{
+        font-family: 'Lobster', cursive;
+    }
+    form{
+        width: 60%;
+        align: center;
+    }
+    legend{
+        width: 70px;
+        padding: 2px;
+        margin-left: 50%, 35px, 8px;
+        display: block;
+    
+    }
+    input{
+    border-color: blue;
+    }
+    label{
+        color: black;
+    }
+    p{
+        color: blue;
+    }
+    select{
+        color: black;
+    }
+    .endpage{
+        display: grid;grid-template-columns: repeat(3,1fr);
+    margin-top:4rem ;
+    background-color:rgb(236, 194, 140);
+    padding: 3rem;
+    }
+    .copy{
+        background-color:white;
+        padding: 1rem;
+
+    }
+    
+
